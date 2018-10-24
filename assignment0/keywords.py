@@ -45,7 +45,7 @@ print(c)
 
 import csv
 
-with open('number.csv','w',) as f:
+with open('output.csv','w',) as f:
     mywriter=csv.writer(f)
     mywriter.writerow(['rank','frequency/keyword'])
     for i in range(0,14):
